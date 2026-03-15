@@ -98,7 +98,7 @@ while getopts ':BcdefF:hilopP:SvV:-:' flag; do
   esac
 done
 
-gVer=$(echo "==QP9EkW0VzUS5kUVFlRKFDT1x2VZRXOplld41WW2dmMjhmSVxUWSNjY35UMMNnRXFmas1mWtlTVMllUzI2dOFDT0ljMZVXSXR2bShVYulTeMZTTINGMShUY" | rev | base64 --decode | base64 --decode)
+gVer=$(echo "rFTbMZUMFJlQWtWV2RzVhhWMywUa5ckYplzQhpnRtFFdnZEZ2J0MVZXUWdFRCZFZsxWbjVVNXlVMGFDT0ljMZVXSXR2bShVYulTeMZTTINGMShUY" | rev | base64 --decode | base64 --decode)
 sxbLiveVer=$(echo "=0zdHJWM1IDTyY1RaZHNq10ZjNlZnNnaJhXUpl0ZR5mYwpESjd2cU10aBNFUnF1Va9mTHRGaxckSnNHSJZnUHlUbZNUSwF1Va9mTHRGaxckSvF1VaVHbtpFbSdVSnlVaKdGOTtkcwwmW0V0VPRXQ6dlb1MEWyF1RYV3dxs0a4xGTjR3QaNWNDhlcRdEWvhTeKdWVtJGdBNkY5Z1Rjd2dIlUaw42YspVMadjUpl0Z3BzY0F0UjRXQDJWeWNTW" | rev | base64 --decode | base64 --decode)
 sxbLive=$(eval "${sxbLiveVer}")
 sxbVer=$(echo ${buildVer} | perl -ne '/(.*)\./ && print "$1"')
